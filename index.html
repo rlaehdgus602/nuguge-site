@@ -98,6 +98,7 @@
   footer { padding: 48px 0 64px; color: var(--caption); font-size: 13px; border-top: 1px solid rgba(255,255,255,.08); }
   footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   footer a { text-decoration: none; color: var(--dim); }
+  footer .links { display: flex; gap: 18px; flex-wrap: wrap; }
 
   @media (max-width: 860px) {
     .hero { grid-template-columns: 1fr; padding: 40px 0 64px; min-height: 0; gap: 40px; }
@@ -210,7 +211,11 @@
   <footer>
     <div class="wrap">
       <span>© 2026 누구게 · 김동현</span>
-      <a href="mailto:donghyunkim@southern.edu">donghyunkim@southern.edu</a>
+      <span class="links">
+        <a href="terms.html">이용약관</a>
+        <a href="privacy.html">개인정보 처리방침</a>
+        <a href="mailto:donghyunkim@southern.edu">donghyunkim@southern.edu</a>
+      </span>
     </div>
   </footer>
 </main>
