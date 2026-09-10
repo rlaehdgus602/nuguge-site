@@ -11,7 +11,7 @@
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg-0: #3D2A68; --bg-1: #262052; --bg-2: #151635; --bg-3: #07070F;
@@ -106,7 +106,8 @@
     .flow, .friends { grid-template-columns: 1fr; gap: 36px; }
     .gallery { grid-template-columns: 1fr; max-width: 320px; margin: 0 auto; }
     section { padding: 64px 0; }
-    .nav nav { display: none; }
+    .brand span { display: none; }
+    .nav nav { gap: 16px; font-size: 13px; }
   }
 </style>
 </head>
@@ -122,7 +123,7 @@
 <main>
   <header class="nav">
     <div class="wrap">
-      <a class="brand" href="#"><img src="assets/icon.png" alt="">누구게</a>
+      <a class="brand" href="#"><img src="assets/icon.png" alt="누구게 아이콘"><span>누구게</span></a>
       <nav>
         <a href="#how">어떻게 하는 거야</a>
         <a href="#friends">친구 연결</a>
@@ -143,7 +144,7 @@
         </div>
       </div>
       <figure class="phone" style="margin:0">
-        <img src="assets/screen-welcome.png" width="603" height="1311" alt="누구게 시작 화면. 카카오로 3초 만에 시작하기 버튼이 있다." fetchpriority="high">
+        <img src="assets/screen-welcome.png" width="414" height="900" alt="누구게 시작 화면. 카카오로 3초 만에 시작하기 버튼이 있다." fetchpriority="high">
       </figure>
     </section>
   </div>
@@ -161,7 +162,7 @@
           </ol>
         </div>
         <figure class="phone" style="margin:0">
-          <img src="assets/screen-home.png" width="603" height="1311" alt="누구게 홈 화면. 오늘의 질문까지 남은 시간이 카운트다운으로 보이고, 질문은 22:22:22에 공개된다." loading="lazy">
+          <img src="assets/screen-home.png" width="414" height="900" alt="누구게 홈 화면. 오늘의 질문까지 남은 시간이 카운트다운으로 보이고, 질문은 22:22:22에 공개된다." loading="lazy">
         </figure>
       </div>
     </section>
@@ -191,9 +192,9 @@
       <h2>이렇게 생겼어</h2>
       <p class="lead">밤하늘 위에 질문 하나. 화면은 늘 이 셋이 전부야.</p>
       <div class="gallery">
-        <figure><div class="phone"><img src="assets/screen-welcome.png" width="603" height="1311" alt="시작 화면" loading="lazy"></div><figcaption>카카오로 3초 만에 시작</figcaption></figure>
-        <figure><div class="phone"><img src="assets/screen-home.png" width="603" height="1311" alt="홈 화면" loading="lazy"></div><figcaption>22:22:22까지 카운트다운</figcaption></figure>
-        <figure><div class="phone"><img src="assets/screen-friends.png" width="603" height="1311" alt="친구 목록 화면" loading="lazy"></div><figcaption>카카오톡 친구가 그대로 친구로</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screen-welcome.png" width="414" height="900" alt="시작 화면" loading="lazy"></div><figcaption>카카오로 3초 만에 시작</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screen-home.png" width="414" height="900" alt="홈 화면" loading="lazy"></div><figcaption>22:22:22까지 카운트다운</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screen-friends.png" width="414" height="900" alt="친구 목록 화면" loading="lazy"></div><figcaption>카카오톡 친구가 그대로 친구로</figcaption></figure>
       </div>
     </section>
   </div>
